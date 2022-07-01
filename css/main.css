@@ -1,0 +1,27 @@
+body {
+    /*background-image: url(../bg.jpg);*/
+    background-color: #F0E6E6;
+    /*font-family: 'Neue Haas Display', sans-serif;*/
+    font-family: 'Bitter', serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 1px 1px #E23E57;
+    color: #000000;
+}
+
+.bg-blur {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+@media only screen and (min-width: 992px) {
+    #pro img {
+        width: 50%;
+    }
+}
